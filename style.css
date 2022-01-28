@@ -1,0 +1,15 @@
+.nav-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link-wrapper{
+    font-family: 'Spartan' , sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    
+    ;
+}
+a{
+    text-decoration: inherit;
+}
