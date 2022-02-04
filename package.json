@@ -1,0 +1,21 @@
+{
+  "name": "social-app",
+  "version": "1.0.0",
+  "description": "Mock social media app",
+  "main": "main.js",
+  "scripts": {
+
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rardev/social-app.git"
+  },
+  "author": "Robert R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rardev/social-app/issues"
+  },
+  "homepage": "https://github.com/rardev/social-app#readme"
+}
