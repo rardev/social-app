@@ -4,7 +4,6 @@
   "description": "Mock social media app",
   "main": "main.js",
   "scripts": {
-
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rardev/social-app/issues"
   },
-  "homepage": "https://github.com/rardev/social-app#readme"
+  "homepage": "https://github.com/rardev/social-app#readme",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  }
 }

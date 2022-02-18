@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialized</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        form {
+             width: 80%;
+             margin: 0 auto;
+        }
+
+        label,
+        input {
+            /* In order to define widths */
+            display: inline-block;
+        }
+
+        label {
+            width: 30%;
+            /* Positions the label text beside the input */
+            text-align: right;
+        }
+
+        label+input {
+            width: 30%;
+            /* Large margin-right to force the next element to the new-line
+                and margin-left to create a gutter between the label and input */
+            margin: 0 30% 10px 4%;
+        }
+
+        .buttonHolder{
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+<body>
+    <img src="" alt="">
+    <div class = "nav-banner">
+        <div class = "logo-wrapper">
+            <a href = "index.html"> <img src ="./logo/socialized-logo(160x40).svg"></a>
+        </div>
+    </div>
+        <form>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label for="Cpassword">Confirm Password:</label>
+            <input type="password" id="Cpassword" name="Cpassword">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+            <div class = "buttonHolder">
+                <input type="submit" id="submit" name="submit">
+            </div>
+        </form>
+    
+</body>
+<script>
+    require('./renderer.js');
+</script>
+</html>
