@@ -21,19 +21,31 @@
 
 </head>
 <body>
-    <img src="" alt="">
-    <div class = "nav-banner">
-        <div class = "logo-wrapper">
-            <a href = "index.html"> <img src ="./logo/socialized-logo(160x40).svg"></a>
-            
+    <navbar class = "navbar">
+        <div class = "navbar-container">
+            <div class = "navbar-logo">
+                <a href="index.html"><img src="./logo/socialized-logo.svg" alt="logo"></a>
+            </div>
+            <div class = "navbar-links">
+                <a href="about-us.html">About us</a>
+                <a href="sign-up.html">Sign up</a>
+            </div>
         </div>
-    <div class = "link-wrapper">
-        <a href = "sign-up.html">Sign up</a>
-        <a href = "about-us.html">About us</a>
+    </navbar>
+<div class = "main-content">
+    <div class = "main-content-container">
+        <div class = "secondary-content-container">
+        <h1>Simple, Secure Messaging</h1>
+        <p>Socialized is a simple, secure messaging app that allows you to send messages to your friends and family.</p>
     </div>
+    <div class = "main-content-container">
+        <p></p>
     </div>
+</div>
+
 </body>
 <script>
     require('./renderer.js');
 </script>
+<script src ="./component.js"></script>
 </html>
