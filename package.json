@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/rardev/social-app#readme",
   "devDependencies": {
-    "electron": "^17.0.0"
+    "electron": "^17.0.1"
   }
 }
