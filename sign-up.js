@@ -11,7 +11,7 @@ function printName()
     console.log(fName);
 }
 
-function collectData()
+async function collectData()
 {
     fName = document.getElementById("fname").value;
     lName = document.getElementById("lname").value;
@@ -19,11 +19,25 @@ function collectData()
     password = document.getElementById("password").value;
     cPassword = document.getElementById("Cpassword").value;
     phone = document.getElementById("phone").value;
+    /*
     console.log(fName);
     console.log(lName);
     console.log(validateEmail(email));
     console.log(confirmPassord());
     console.log(phone);
+    */
+    const data = {fName, lName, email, password, cPassword, phone};
+    const options = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    };
+    const response = await fetch('/api'/*'../server/api'*/, options);
+    const d = await response.json();
+    console.log(d);
+    
 }
 
 function validateEmail(email)
