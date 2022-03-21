@@ -1,3 +1,4 @@
+var userName;
 var fName;
 var lName;
 var email;
@@ -13,6 +14,7 @@ function printName()
 
 async function collectData()
 {
+    userName = document.getElementById("userName").value;
     fName = document.getElementById("fname").value;
     lName = document.getElementById("lname").value;
     email = document.getElementById("email").value;
@@ -26,7 +28,7 @@ async function collectData()
     console.log(confirmPassord());
     console.log(phone);
     */
-    const data = {fName, lName, email, password, cPassword, phone};
+    const data = {userName, fName, lName, email, password, cPassword, phone};
     const options = {
         method: 'POST',
         headers: {
