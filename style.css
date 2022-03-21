@@ -67,6 +67,18 @@ a{
     border: 1px solid #1f1f1f;
     width: 80%; /* Could be more or less, depending on screen size */
   }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .login-link
+  {
+    cursor: pointer;
+  }
+
   
   /* The Close Button */
   .close {
