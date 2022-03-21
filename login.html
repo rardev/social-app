@@ -3,13 +3,13 @@
 <head>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sign-up.css">
+    <link rel="stylesheet" href="login.css">
     
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socialized | Sign Up</title>
+    <title>Socialized | Login</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -31,30 +31,18 @@
             </div>
         </div>
     </navbar>
+    
         <form>
             <label for="userName">Username:</label>
             <input type="text" id="userName" name="userName">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname">
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
             <label for="password">Password:</label>
             <input type="password" id="password" name="password">
-            <label for="Cpassword">Confirm Password:</label>
-            <input type="password" id="Cpassword" name="Cpassword">
-            <label for="phone">Phone Number:</label>
-            <input type="text" id="phone" name="phone">
             <div class = "buttonHolder">
-                <!--<input onclick="printName()" type="submit" id="submit" name="submit">-->
                 <button onclick="collectData()" type="button" id="submit" name="submit">Submit</button>
             </div>
         </form>
     
 </body>
-<!--<script>
-    require('./renderer.js');
-</script>-->
-<script src="sign-up.js"></script>
+
+<script src="login.js"></script>
 </html>
